@@ -1,6 +1,48 @@
-<button>hello</button>
-<!--Nesting is when you insert an Element inside another Element-->
-<!--I nested the <texarea> element inside of the <p> element-->
-<p>
-    Regular paragraph of text<textarea name="" id="" cols="30" rows="10">Text inside text area element</textarea>
-</p>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>HTML CSS Review</title>
+				<style>
+				.red-button {
+					background-color: red;
+					color:white;
+					border: none;
+				}
+
+				.yellow-button{
+					background-color:yellow;
+				}
+				</style>
+
+	</head>
+	<body>
+		<button title="Good job!" class="red-button" onclick="
+			('Good job!');
+			">
+			hello
+		</button>
+
+		<!--Nesting is when you insert an Element inside another Element 
+		I nested the <textarea> element inside of the <p> element below-->
+
+		<p>
+			Regular paragraph of text
+			<button class="yellow-button">
+				Yo!
+			</button>   
+			<textarea name="" id="" cols="30" rows="10">Type in this box if you like.
+			</textarea>
+		</p>
+
+		<script>
+			alert('hello');
+		</script>
+	</body>
+</html>
+
+
+
+
+
+
+
